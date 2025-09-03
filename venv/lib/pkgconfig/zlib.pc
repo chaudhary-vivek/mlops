@@ -1,0 +1,13 @@
+prefix=/Users/vivekchaudhary/Documents/mlops/venv
+exec_prefix=/Users/vivekchaudhary/Documents/mlops/venv
+libdir=/Users/vivekchaudhary/Documents/mlops/venv/lib
+sharedlibdir=/Users/vivekchaudhary/Documents/mlops/venv/lib
+includedir=/Users/vivekchaudhary/Documents/mlops/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
